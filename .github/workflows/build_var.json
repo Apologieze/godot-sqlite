@@ -36,6 +36,14 @@
             "os": "ubuntu-22.04",
             "platform": "linux",
             "artifact-extension": "so",
+            "cache-name": "linux-arm64"
+        },
+        {
+            "name": "Ubuntu (GCC, ARM)",
+            "os": "ubuntu-22.04",
+            "platform": "linux",
+            "artifact-extension": "so",
+            "flags": "arch=arm64",
             "cache-name": "linux-x86_64"
         },
         {
